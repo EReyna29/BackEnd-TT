@@ -1,0 +1,37 @@
+POST http://localhost:3000/api/alertas
+Content-Type: application/json
+
+{
+    "codigo":"codigo-prueba",
+    "nombre":"prueba",
+    "carga":70,
+    "temperatura": 50,
+    "descripcion":"Prueba",
+    "alarma": true
+}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "nombre":"Juan",
+    "edad":45,
+    "correo":true
+}
+
+###
+
+POST http://localhost:3001/api/notificaciones
+Content-Type: application/json
+
+{
+    "codigo":"codigo-prueba",
+    "palanca":"P",
+    "carga":70,
+    "temperatura": 50,
+    "descripcion":"Prueba",
+    "fecha": "skdjksk"
+}
+
